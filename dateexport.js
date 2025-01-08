@@ -1,3 +1,5 @@
-exports.myDate=function(){
-    return Date()
+function myDate(){
+    return new  Date();
 }
+
+export default myDate;

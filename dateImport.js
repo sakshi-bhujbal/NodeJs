@@ -1,2 +1,2 @@
-var date=require("./dateexport")
-console.log(date.myDate());
+import myDate from './dateexport.js'
+console.log(myDate());
